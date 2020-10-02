@@ -15,7 +15,6 @@
 
 
 void vBlinkLED3(void *pvParam){
-	   int* param = pvParam;
 	  const int LED_index = LED3;
 	  const int time_delay = 530;
 	  BSP_LED_Init(LED_index);
@@ -31,7 +30,6 @@ void vBlinkLED3(void *pvParam){
 } // vBlinkLED3
 
 void vBlinkLED4(void *pvParam){
-	   int* param = pvParam;
 	  const int LED_index = LED4;
 	  const int time_delay = 430;
 	  BSP_LED_Init(LED_index);
@@ -47,7 +45,6 @@ void vBlinkLED4(void *pvParam){
 } // vBlinkLED4
 
 void vBlinkLED5(void *pvParam){
-	   int* param = pvParam;
 	  const int LED_index = LED5;
 	  const int time_delay = 330;
 	  BSP_LED_Init(LED_index);
@@ -63,7 +60,6 @@ void vBlinkLED5(void *pvParam){
 } // vBlinkLED5
 
 void vBlinkLED6(void *pvParam){
-	   int* param = pvParam;
 	  const int LED_index = LED6;
 	  const int time_delay = 230;
 	  BSP_LED_Init(LED_index);

@@ -31,38 +31,38 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-FreeRTOS_ex1.hex \
+FreeRTOS_ex2.hex \
 
 SECONDARY_SIZE += \
-FreeRTOS_ex1.siz \
+FreeRTOS_ex2.siz \
 
 
 # All Target
-all: FreeRTOS_ex1.elf secondary-outputs
+all: FreeRTOS_ex2.elf secondary-outputs
 
 # Tool invocations
-FreeRTOS_ex1.elf: $(OBJS) $(USER_OBJS)
+FreeRTOS_ex2.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "/home/luis/eclipse-workspace/FreeRTOS_ex1/ldscripts/STM32F407VGTx_FLASH.ld" -Xlinker --gc-sections -L"/home/luis/eclipse-workspace/FreeRTOS_ex1/ldscripts" -Wl,-Map,"FreeRTOS_ex1.map" --specs=nano.specs -o "FreeRTOS_ex1.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "/home/luis/eclipse-workspace/FreeRTOS_ex2/ldscripts/STM32F407VGTx_FLASH.ld" -Xlinker --gc-sections -L"/home/luis/eclipse-workspace/FreeRTOS_ex2/ldscripts" -Wl,-Map,"FreeRTOS_ex2.map" --specs=nano.specs -o "FreeRTOS_ex2.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-FreeRTOS_ex1.hex: FreeRTOS_ex1.elf
+FreeRTOS_ex2.hex: FreeRTOS_ex2.elf
 	@echo 'Invoking: GNU ARM Cross Create Flash Image'
-	arm-none-eabi-objcopy -O ihex "FreeRTOS_ex1.elf"  "FreeRTOS_ex1.hex"
+	arm-none-eabi-objcopy -O ihex "FreeRTOS_ex2.elf"  "FreeRTOS_ex2.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-FreeRTOS_ex1.siz: FreeRTOS_ex1.elf
+FreeRTOS_ex2.siz: FreeRTOS_ex2.elf
 	@echo 'Invoking: GNU ARM Cross Print Size'
-	arm-none-eabi-size --format=berkeley "FreeRTOS_ex1.elf"
+	arm-none-eabi-size --format=berkeley "FreeRTOS_ex2.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS) FreeRTOS_ex1.elf
+	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS) FreeRTOS_ex2.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)

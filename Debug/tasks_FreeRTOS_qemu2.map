@@ -2093,7 +2093,7 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
                 0x0000000000000287       0x2d /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
  .ARM.attributes
                 0x00000000000002b4       0x1d /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
-OUTPUT(tasks_FreeRTOS_qemu.elf elf32-littlearm)
+OUTPUT(tasks_FreeRTOS_qemu2.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a

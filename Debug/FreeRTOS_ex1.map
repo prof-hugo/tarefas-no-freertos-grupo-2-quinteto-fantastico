@@ -177,8 +177,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x0000000000000000      0x225 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_macro   0x0000000000000000      0x12d ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x0000000000000000      0x91b ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_str     0x0000000000000000    0xbb7f9 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x0000000000000000      0x8f8 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_str     0x0000000000000000    0xbb7f2 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .comment       0x0000000000000000       0x44 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .debug_frame   0x0000000000000000      0x374 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
  .ARM.attributes
@@ -327,8 +327,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_macro   0x0000000000000000      0x225 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_macro   0x0000000000000000      0x12d ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x0000000000000000      0xbd3 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_str     0x0000000000000000    0xbb574 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x0000000000000000      0xbb0 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_str     0x0000000000000000    0xbb56d ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .comment       0x0000000000000000       0x44 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .debug_frame   0x0000000000000000      0x498 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
  .ARM.attributes
@@ -523,8 +523,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x0000000000000000      0x225 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_macro   0x0000000000000000      0x12d ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x0000000000000000      0xc3f ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_str     0x0000000000000000    0xbb09a ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x0000000000000000      0xc1c ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_str     0x0000000000000000    0xbb093 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .comment       0x0000000000000000       0x44 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .debug_frame   0x0000000000000000      0x1f0 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
  .ARM.attributes
@@ -620,8 +620,8 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x0000000000000000      0x225 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_macro   0x0000000000000000      0x12d ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_line    0x0000000000000000      0x93a ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
- .debug_str     0x0000000000000000    0xbaded ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_line    0x0000000000000000      0x917 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
+ .debug_str     0x0000000000000000    0xbade6 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .comment       0x0000000000000000       0x44 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .debug_frame   0x0000000000000000       0xf0 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.o
  .ARM.attributes
@@ -925,6 +925,8 @@ Discarded input sections
  .bss           0x0000000000000000        0x0 ./FreeRTOS/Source/tasks.o
  .text.vTaskDelete
                 0x0000000000000000       0xe4 ./FreeRTOS/Source/tasks.o
+ .text.vTaskDelay
+                0x0000000000000000       0x68 ./FreeRTOS/Source/tasks.o
  .text.eTaskGetState
                 0x0000000000000000       0xf4 ./FreeRTOS/Source/tasks.o
  .text.uxTaskPriorityGet
@@ -1120,6 +1122,95 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xb5 ./FreeRTOS/Source/timers.o
  .debug_macro   0x0000000000000000      0x119 ./FreeRTOS/Source/timers.o
  .debug_macro   0x0000000000000000       0x80 ./FreeRTOS/Source/timers.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .group         0x0000000000000000        0xc ./FreeRTOS_ex1.o
+ .text          0x0000000000000000        0x0 ./FreeRTOS_ex1.o
+ .data          0x0000000000000000        0x0 ./FreeRTOS_ex1.o
+ .bss           0x0000000000000000        0x0 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0xa90 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x2bb ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x32 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x2f ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x22 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x8e ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x51 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x103 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x6a ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x1df ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x1c ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x22 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0xc3 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000     0x102d ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x11f ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000    0x15e43 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x43 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000     0x35d4 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x174 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x5a ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x96b ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x9fe ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x117 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x13e ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x27 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x287 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x5f ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x236 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x12c ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x21e ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x2e ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x1ae ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0xd6 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x225 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x12d ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x15a ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0xcf ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x1c ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0x26 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x41e ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000       0xb5 ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000000000      0x119 ./FreeRTOS_ex1.o
  .text          0x0000000000000000       0x14 ./startup_stm32f407xx.o
  .data          0x0000000000000000        0x0 ./startup_stm32f407xx.o
  .bss           0x0000000000000000        0x0 ./startup_stm32f407xx.o
@@ -1255,6 +1346,7 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./stm32f4_discovery.o
  .debug_macro   0x0000000000000000      0x225 ./stm32f4_discovery.o
  .debug_macro   0x0000000000000000      0x12d ./stm32f4_discovery.o
+ .debug_macro   0x0000000000000000      0x1e1 ./stm32f4_discovery.o
  .group         0x0000000000000000        0xc ./system_stm32f4xx.o
  .group         0x0000000000000000        0xc ./system_stm32f4xx.o
  .group         0x0000000000000000        0xc ./system_stm32f4xx.o
@@ -1334,96 +1426,6 @@ Discarded input sections
  .debug_macro   0x0000000000000000       0xd6 ./system_stm32f4xx.o
  .debug_macro   0x0000000000000000      0x225 ./system_stm32f4xx.o
  .debug_macro   0x0000000000000000      0x12d ./system_stm32f4xx.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .group         0x0000000000000000        0xc ./tasks_FreeRTOS_qemu.o
- .text          0x0000000000000000        0x0 ./tasks_FreeRTOS_qemu.o
- .data          0x0000000000000000        0x0 ./tasks_FreeRTOS_qemu.o
- .bss           0x0000000000000000        0x0 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0xa90 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x2bb ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x32 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x2f ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x22 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x8e ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x51 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x103 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x6a ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x1df ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x1c ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x22 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0xc3 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000     0x102d ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x11f ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000    0x15e43 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x43 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000     0x35d4 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x174 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x5a ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x96b ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x9fe ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x117 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x13e ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x27 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x287 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x5f ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x236 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x12c ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x21e ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x2e ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x1ae ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0xd6 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x225 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x12d ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x1e1 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x15a ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0xcf ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x1c ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0x26 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x41e ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000       0xb5 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x0000000000000000      0x119 ./tasks_FreeRTOS_qemu.o
  .text          0x0000000000000000       0x30 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .data          0x0000000000000000        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
  .bss           0x0000000000000000        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a(_aeabi_uldivmod.o)
@@ -1508,10 +1510,10 @@ LOAD ./FreeRTOS/Source/list.o
 LOAD ./FreeRTOS/Source/queue.o
 LOAD ./FreeRTOS/Source/tasks.o
 LOAD ./FreeRTOS/Source/timers.o
+LOAD ./FreeRTOS_ex1.o
 LOAD ./startup_stm32f407xx.o
 LOAD ./stm32f4_discovery.o
 LOAD ./system_stm32f4xx.o
-LOAD ./tasks_FreeRTOS_qemu.o
 START GROUP
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a
@@ -1534,7 +1536,7 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
                 0x0000000008000000                g_pfnVectors
                 0x0000000008000188                . = ALIGN (0x4)
 
-.text           0x0000000008000190     0x2b64
+.text           0x0000000008000190     0x2b08
                 0x0000000008000190                . = ALIGN (0x4)
  *(.text)
  *(.text*)
@@ -1653,279 +1655,275 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .text.vTaskDelayUntil
                 0x00000000080018a0       0xfc ./FreeRTOS/Source/tasks.o
                 0x00000000080018a0                vTaskDelayUntil
- .text.vTaskDelay
-                0x000000000800199c       0x68 ./FreeRTOS/Source/tasks.o
-                0x000000000800199c                vTaskDelay
  .text.vTaskStartScheduler
-                0x0000000008001a04       0x9c ./FreeRTOS/Source/tasks.o
-                0x0000000008001a04                vTaskStartScheduler
+                0x000000000800199c       0x9c ./FreeRTOS/Source/tasks.o
+                0x000000000800199c                vTaskStartScheduler
  .text.vTaskSuspendAll
-                0x0000000008001aa0       0x1c ./FreeRTOS/Source/tasks.o
-                0x0000000008001aa0                vTaskSuspendAll
+                0x0000000008001a38       0x1c ./FreeRTOS/Source/tasks.o
+                0x0000000008001a38                vTaskSuspendAll
  .text.xTaskResumeAll
-                0x0000000008001abc      0x13c ./FreeRTOS/Source/tasks.o
-                0x0000000008001abc                xTaskResumeAll
+                0x0000000008001a54      0x13c ./FreeRTOS/Source/tasks.o
+                0x0000000008001a54                xTaskResumeAll
  .text.xTaskGetTickCount
-                0x0000000008001bf8       0x1c ./FreeRTOS/Source/tasks.o
-                0x0000000008001bf8                xTaskGetTickCount
+                0x0000000008001b90       0x1c ./FreeRTOS/Source/tasks.o
+                0x0000000008001b90                xTaskGetTickCount
  .text.xTaskIncrementTick
-                0x0000000008001c14      0x158 ./FreeRTOS/Source/tasks.o
-                0x0000000008001c14                xTaskIncrementTick
+                0x0000000008001bac      0x158 ./FreeRTOS/Source/tasks.o
+                0x0000000008001bac                xTaskIncrementTick
  .text.vTaskSwitchContext
-                0x0000000008001d6c       0xb8 ./FreeRTOS/Source/tasks.o
-                0x0000000008001d6c                vTaskSwitchContext
+                0x0000000008001d04       0xb8 ./FreeRTOS/Source/tasks.o
+                0x0000000008001d04                vTaskSwitchContext
  .text.vTaskPlaceOnEventList
-                0x0000000008001e24       0x48 ./FreeRTOS/Source/tasks.o
-                0x0000000008001e24                vTaskPlaceOnEventList
+                0x0000000008001dbc       0x48 ./FreeRTOS/Source/tasks.o
+                0x0000000008001dbc                vTaskPlaceOnEventList
  .text.vTaskPlaceOnEventListRestricted
-                0x0000000008001e6c       0x58 ./FreeRTOS/Source/tasks.o
-                0x0000000008001e6c                vTaskPlaceOnEventListRestricted
+                0x0000000008001e04       0x58 ./FreeRTOS/Source/tasks.o
+                0x0000000008001e04                vTaskPlaceOnEventListRestricted
  .text.xTaskRemoveFromEventList
-                0x0000000008001ec4       0xc8 ./FreeRTOS/Source/tasks.o
-                0x0000000008001ec4                xTaskRemoveFromEventList
+                0x0000000008001e5c       0xc8 ./FreeRTOS/Source/tasks.o
+                0x0000000008001e5c                xTaskRemoveFromEventList
  .text.vTaskInternalSetTimeOutState
-                0x0000000008001f8c       0x2c ./FreeRTOS/Source/tasks.o
-                0x0000000008001f8c                vTaskInternalSetTimeOutState
+                0x0000000008001f24       0x2c ./FreeRTOS/Source/tasks.o
+                0x0000000008001f24                vTaskInternalSetTimeOutState
  .text.xTaskCheckForTimeOut
-                0x0000000008001fb8       0xcc ./FreeRTOS/Source/tasks.o
-                0x0000000008001fb8                xTaskCheckForTimeOut
+                0x0000000008001f50       0xcc ./FreeRTOS/Source/tasks.o
+                0x0000000008001f50                xTaskCheckForTimeOut
  .text.vTaskMissedYield
-                0x0000000008002084       0x18 ./FreeRTOS/Source/tasks.o
-                0x0000000008002084                vTaskMissedYield
+                0x000000000800201c       0x18 ./FreeRTOS/Source/tasks.o
+                0x000000000800201c                vTaskMissedYield
  .text.prvIdleTask
-                0x000000000800209c       0x30 ./FreeRTOS/Source/tasks.o
+                0x0000000008002034       0x30 ./FreeRTOS/Source/tasks.o
  .text.prvInitialiseTaskLists
-                0x00000000080020cc       0x80 ./FreeRTOS/Source/tasks.o
+                0x0000000008002064       0x80 ./FreeRTOS/Source/tasks.o
  .text.prvCheckTasksWaitingTermination
-                0x000000000800214c       0x5c ./FreeRTOS/Source/tasks.o
+                0x00000000080020e4       0x5c ./FreeRTOS/Source/tasks.o
  .text.prvDeleteTCB
-                0x00000000080021a8       0x20 ./FreeRTOS/Source/tasks.o
+                0x0000000008002140       0x20 ./FreeRTOS/Source/tasks.o
  .text.prvResetNextTaskUnblockTime
-                0x00000000080021c8       0x34 ./FreeRTOS/Source/tasks.o
+                0x0000000008002160       0x34 ./FreeRTOS/Source/tasks.o
  .text.xTaskGetSchedulerState
-                0x00000000080021fc       0x3c ./FreeRTOS/Source/tasks.o
-                0x00000000080021fc                xTaskGetSchedulerState
+                0x0000000008002194       0x3c ./FreeRTOS/Source/tasks.o
+                0x0000000008002194                xTaskGetSchedulerState
  .text.xTaskPriorityDisinherit
-                0x0000000008002238       0xdc ./FreeRTOS/Source/tasks.o
-                0x0000000008002238                xTaskPriorityDisinherit
+                0x00000000080021d0       0xdc ./FreeRTOS/Source/tasks.o
+                0x00000000080021d0                xTaskPriorityDisinherit
  .text.prvAddCurrentTaskToDelayedList
-                0x0000000008002314       0xa8 ./FreeRTOS/Source/tasks.o
+                0x00000000080022ac       0xa8 ./FreeRTOS/Source/tasks.o
  .text.xTimerCreateTimerTask
-                0x00000000080023bc       0x64 ./FreeRTOS/Source/timers.o
-                0x00000000080023bc                xTimerCreateTimerTask
+                0x0000000008002354       0x64 ./FreeRTOS/Source/timers.o
+                0x0000000008002354                xTimerCreateTimerTask
  .text.xTimerGenericCommand
-                0x0000000008002420       0x9c ./FreeRTOS/Source/timers.o
-                0x0000000008002420                xTimerGenericCommand
+                0x00000000080023b8       0x9c ./FreeRTOS/Source/timers.o
+                0x00000000080023b8                xTimerGenericCommand
  .text.prvProcessExpiredTimer
-                0x00000000080024bc       0x98 ./FreeRTOS/Source/timers.o
+                0x0000000008002454       0x98 ./FreeRTOS/Source/timers.o
  .text.prvTimerTask
-                0x0000000008002554       0x24 ./FreeRTOS/Source/timers.o
+                0x00000000080024ec       0x24 ./FreeRTOS/Source/timers.o
  .text.prvProcessTimerOrBlockTask
-                0x0000000008002578       0x9c ./FreeRTOS/Source/timers.o
+                0x0000000008002510       0x9c ./FreeRTOS/Source/timers.o
  .text.prvGetNextExpireTime
-                0x0000000008002614       0x44 ./FreeRTOS/Source/timers.o
+                0x00000000080025ac       0x44 ./FreeRTOS/Source/timers.o
  .text.prvSampleTimeNow
-                0x0000000008002658       0x40 ./FreeRTOS/Source/timers.o
+                0x00000000080025f0       0x40 ./FreeRTOS/Source/timers.o
  .text.prvInsertTimerInActiveList
-                0x0000000008002698       0x84 ./FreeRTOS/Source/timers.o
+                0x0000000008002630       0x84 ./FreeRTOS/Source/timers.o
  .text.prvProcessReceivedCommands
-                0x000000000800271c      0x18c ./FreeRTOS/Source/timers.o
+                0x00000000080026b4      0x18c ./FreeRTOS/Source/timers.o
  .text.prvSwitchTimerLists
-                0x00000000080028a8       0xc8 ./FreeRTOS/Source/timers.o
+                0x0000000008002840       0xc8 ./FreeRTOS/Source/timers.o
  .text.prvCheckForValidListAndQueue
-                0x0000000008002970       0x6c ./FreeRTOS/Source/timers.o
- .text.Reset_Handler
-                0x00000000080029dc       0x50 ./startup_stm32f407xx.o
-                0x00000000080029dc                Reset_Handler
- .text.Default_Handler
-                0x0000000008002a2c        0x2 ./startup_stm32f407xx.o
-                0x0000000008002a2c                RTC_Alarm_IRQHandler
-                0x0000000008002a2c                HASH_RNG_IRQHandler
-                0x0000000008002a2c                EXTI2_IRQHandler
-                0x0000000008002a2c                TIM8_CC_IRQHandler
-                0x0000000008002a2c                DebugMon_Handler
-                0x0000000008002a2c                TIM1_CC_IRQHandler
-                0x0000000008002a2c                DMA2_Stream5_IRQHandler
-                0x0000000008002a2c                HardFault_Handler
-                0x0000000008002a2c                DMA1_Stream5_IRQHandler
-                0x0000000008002a2c                PVD_IRQHandler
-                0x0000000008002a2c                SDIO_IRQHandler
-                0x0000000008002a2c                TAMP_STAMP_IRQHandler
-                0x0000000008002a2c                NMI_Handler
-                0x0000000008002a2c                CAN2_RX1_IRQHandler
-                0x0000000008002a2c                EXTI3_IRQHandler
-                0x0000000008002a2c                TIM8_TRG_COM_TIM14_IRQHandler
-                0x0000000008002a2c                TIM1_UP_TIM10_IRQHandler
-                0x0000000008002a2c                TIM8_UP_TIM13_IRQHandler
-                0x0000000008002a2c                I2C3_ER_IRQHandler
-                0x0000000008002a2c                EXTI0_IRQHandler
-                0x0000000008002a2c                I2C2_EV_IRQHandler
-                0x0000000008002a2c                DMA1_Stream2_IRQHandler
-                0x0000000008002a2c                CAN1_RX0_IRQHandler
-                0x0000000008002a2c                FPU_IRQHandler
-                0x0000000008002a2c                OTG_HS_WKUP_IRQHandler
-                0x0000000008002a2c                UsageFault_Handler
-                0x0000000008002a2c                CAN2_SCE_IRQHandler
-                0x0000000008002a2c                DMA2_Stream2_IRQHandler
-                0x0000000008002a2c                SPI1_IRQHandler
-                0x0000000008002a2c                TIM6_DAC_IRQHandler
-                0x0000000008002a2c                TIM1_BRK_TIM9_IRQHandler
-                0x0000000008002a2c                DCMI_IRQHandler
-                0x0000000008002a2c                CAN2_RX0_IRQHandler
-                0x0000000008002a2c                DMA2_Stream3_IRQHandler
-                0x0000000008002a2c                USART6_IRQHandler
-                0x0000000008002a2c                USART3_IRQHandler
-                0x0000000008002a2c                CAN1_RX1_IRQHandler
-                0x0000000008002a2c                UART5_IRQHandler
-                0x0000000008002a2c                DMA2_Stream0_IRQHandler
-                0x0000000008002a2c                TIM4_IRQHandler
-                0x0000000008002a2c                I2C1_EV_IRQHandler
-                0x0000000008002a2c                DMA1_Stream6_IRQHandler
-                0x0000000008002a2c                DMA1_Stream1_IRQHandler
-                0x0000000008002a2c                UART4_IRQHandler
-                0x0000000008002a2c                TIM3_IRQHandler
-                0x0000000008002a2c                RCC_IRQHandler
-                0x0000000008002a2c                TIM8_BRK_TIM12_IRQHandler
-                0x0000000008002a2c                Default_Handler
-                0x0000000008002a2c                EXTI15_10_IRQHandler
-                0x0000000008002a2c                ADC_IRQHandler
-                0x0000000008002a2c                DMA1_Stream7_IRQHandler
-                0x0000000008002a2c                TIM7_IRQHandler
-                0x0000000008002a2c                CAN2_TX_IRQHandler
-                0x0000000008002a2c                TIM5_IRQHandler
-                0x0000000008002a2c                DMA2_Stream7_IRQHandler
-                0x0000000008002a2c                I2C3_EV_IRQHandler
-                0x0000000008002a2c                EXTI9_5_IRQHandler
-                0x0000000008002a2c                RTC_WKUP_IRQHandler
-                0x0000000008002a2c                ETH_WKUP_IRQHandler
-                0x0000000008002a2c                SPI2_IRQHandler
-                0x0000000008002a2c                OTG_HS_EP1_IN_IRQHandler
-                0x0000000008002a2c                MemManage_Handler
-                0x0000000008002a2c                DMA1_Stream0_IRQHandler
-                0x0000000008002a2c                CAN1_TX_IRQHandler
-                0x0000000008002a2c                EXTI4_IRQHandler
-                0x0000000008002a2c                FSMC_IRQHandler
-                0x0000000008002a2c                ETH_IRQHandler
-                0x0000000008002a2c                OTG_HS_EP1_OUT_IRQHandler
-                0x0000000008002a2c                WWDG_IRQHandler
-                0x0000000008002a2c                TIM2_IRQHandler
-                0x0000000008002a2c                OTG_FS_WKUP_IRQHandler
-                0x0000000008002a2c                TIM1_TRG_COM_TIM11_IRQHandler
-                0x0000000008002a2c                OTG_HS_IRQHandler
-                0x0000000008002a2c                EXTI1_IRQHandler
-                0x0000000008002a2c                USART2_IRQHandler
-                0x0000000008002a2c                I2C2_ER_IRQHandler
-                0x0000000008002a2c                DMA2_Stream1_IRQHandler
-                0x0000000008002a2c                CAN1_SCE_IRQHandler
-                0x0000000008002a2c                FLASH_IRQHandler
-                0x0000000008002a2c                DMA2_Stream4_IRQHandler
-                0x0000000008002a2c                BusFault_Handler
-                0x0000000008002a2c                USART1_IRQHandler
-                0x0000000008002a2c                OTG_FS_IRQHandler
-                0x0000000008002a2c                SPI3_IRQHandler
-                0x0000000008002a2c                DMA1_Stream4_IRQHandler
-                0x0000000008002a2c                I2C1_ER_IRQHandler
-                0x0000000008002a2c                DMA2_Stream6_IRQHandler
-                0x0000000008002a2c                DMA1_Stream3_IRQHandler
- *fill*         0x0000000008002a2e        0x2 
- .text.BSP_LED_Init
-                0x0000000008002a30       0xf0 ./stm32f4_discovery.o
-                0x0000000008002a30                BSP_LED_Init
- .text.BSP_LED_Toggle
-                0x0000000008002b20       0x34 ./stm32f4_discovery.o
-                0x0000000008002b20                BSP_LED_Toggle
- .text.SystemInit
-                0x0000000008002b54       0x5c ./system_stm32f4xx.o
-                0x0000000008002b54                SystemInit
+                0x0000000008002908       0x6c ./FreeRTOS/Source/timers.o
  .text.vBlinkLED4
-                0x0000000008002bb0       0x1c ./tasks_FreeRTOS_qemu.o
-                0x0000000008002bb0                vBlinkLED4
+                0x0000000008002974       0x2a ./FreeRTOS_ex1.o
+                0x0000000008002974                vBlinkLED4
  .text.vBlinkLED5
-                0x0000000008002bcc       0x2a ./tasks_FreeRTOS_qemu.o
-                0x0000000008002bcc                vBlinkLED5
- *fill*         0x0000000008002bf6        0x2 
- .text.main     0x0000000008002bf8       0x70 ./tasks_FreeRTOS_qemu.o
-                0x0000000008002bf8                main
+                0x000000000800299e       0x2a ./FreeRTOS_ex1.o
+                0x000000000800299e                vBlinkLED5
+ .text.main     0x00000000080029c8       0x70 ./FreeRTOS_ex1.o
+                0x00000000080029c8                main
+ .text.Reset_Handler
+                0x0000000008002a38       0x50 ./startup_stm32f407xx.o
+                0x0000000008002a38                Reset_Handler
+ .text.Default_Handler
+                0x0000000008002a88        0x2 ./startup_stm32f407xx.o
+                0x0000000008002a88                RTC_Alarm_IRQHandler
+                0x0000000008002a88                HASH_RNG_IRQHandler
+                0x0000000008002a88                EXTI2_IRQHandler
+                0x0000000008002a88                TIM8_CC_IRQHandler
+                0x0000000008002a88                DebugMon_Handler
+                0x0000000008002a88                TIM1_CC_IRQHandler
+                0x0000000008002a88                DMA2_Stream5_IRQHandler
+                0x0000000008002a88                HardFault_Handler
+                0x0000000008002a88                DMA1_Stream5_IRQHandler
+                0x0000000008002a88                PVD_IRQHandler
+                0x0000000008002a88                SDIO_IRQHandler
+                0x0000000008002a88                TAMP_STAMP_IRQHandler
+                0x0000000008002a88                NMI_Handler
+                0x0000000008002a88                CAN2_RX1_IRQHandler
+                0x0000000008002a88                EXTI3_IRQHandler
+                0x0000000008002a88                TIM8_TRG_COM_TIM14_IRQHandler
+                0x0000000008002a88                TIM1_UP_TIM10_IRQHandler
+                0x0000000008002a88                TIM8_UP_TIM13_IRQHandler
+                0x0000000008002a88                I2C3_ER_IRQHandler
+                0x0000000008002a88                EXTI0_IRQHandler
+                0x0000000008002a88                I2C2_EV_IRQHandler
+                0x0000000008002a88                DMA1_Stream2_IRQHandler
+                0x0000000008002a88                CAN1_RX0_IRQHandler
+                0x0000000008002a88                FPU_IRQHandler
+                0x0000000008002a88                OTG_HS_WKUP_IRQHandler
+                0x0000000008002a88                UsageFault_Handler
+                0x0000000008002a88                CAN2_SCE_IRQHandler
+                0x0000000008002a88                DMA2_Stream2_IRQHandler
+                0x0000000008002a88                SPI1_IRQHandler
+                0x0000000008002a88                TIM6_DAC_IRQHandler
+                0x0000000008002a88                TIM1_BRK_TIM9_IRQHandler
+                0x0000000008002a88                DCMI_IRQHandler
+                0x0000000008002a88                CAN2_RX0_IRQHandler
+                0x0000000008002a88                DMA2_Stream3_IRQHandler
+                0x0000000008002a88                USART6_IRQHandler
+                0x0000000008002a88                USART3_IRQHandler
+                0x0000000008002a88                CAN1_RX1_IRQHandler
+                0x0000000008002a88                UART5_IRQHandler
+                0x0000000008002a88                DMA2_Stream0_IRQHandler
+                0x0000000008002a88                TIM4_IRQHandler
+                0x0000000008002a88                I2C1_EV_IRQHandler
+                0x0000000008002a88                DMA1_Stream6_IRQHandler
+                0x0000000008002a88                DMA1_Stream1_IRQHandler
+                0x0000000008002a88                UART4_IRQHandler
+                0x0000000008002a88                TIM3_IRQHandler
+                0x0000000008002a88                RCC_IRQHandler
+                0x0000000008002a88                TIM8_BRK_TIM12_IRQHandler
+                0x0000000008002a88                Default_Handler
+                0x0000000008002a88                EXTI15_10_IRQHandler
+                0x0000000008002a88                ADC_IRQHandler
+                0x0000000008002a88                DMA1_Stream7_IRQHandler
+                0x0000000008002a88                TIM7_IRQHandler
+                0x0000000008002a88                CAN2_TX_IRQHandler
+                0x0000000008002a88                TIM5_IRQHandler
+                0x0000000008002a88                DMA2_Stream7_IRQHandler
+                0x0000000008002a88                I2C3_EV_IRQHandler
+                0x0000000008002a88                EXTI9_5_IRQHandler
+                0x0000000008002a88                RTC_WKUP_IRQHandler
+                0x0000000008002a88                ETH_WKUP_IRQHandler
+                0x0000000008002a88                SPI2_IRQHandler
+                0x0000000008002a88                OTG_HS_EP1_IN_IRQHandler
+                0x0000000008002a88                MemManage_Handler
+                0x0000000008002a88                DMA1_Stream0_IRQHandler
+                0x0000000008002a88                CAN1_TX_IRQHandler
+                0x0000000008002a88                EXTI4_IRQHandler
+                0x0000000008002a88                FSMC_IRQHandler
+                0x0000000008002a88                ETH_IRQHandler
+                0x0000000008002a88                OTG_HS_EP1_OUT_IRQHandler
+                0x0000000008002a88                WWDG_IRQHandler
+                0x0000000008002a88                TIM2_IRQHandler
+                0x0000000008002a88                OTG_FS_WKUP_IRQHandler
+                0x0000000008002a88                TIM1_TRG_COM_TIM11_IRQHandler
+                0x0000000008002a88                OTG_HS_IRQHandler
+                0x0000000008002a88                EXTI1_IRQHandler
+                0x0000000008002a88                USART2_IRQHandler
+                0x0000000008002a88                I2C2_ER_IRQHandler
+                0x0000000008002a88                DMA2_Stream1_IRQHandler
+                0x0000000008002a88                CAN1_SCE_IRQHandler
+                0x0000000008002a88                FLASH_IRQHandler
+                0x0000000008002a88                DMA2_Stream4_IRQHandler
+                0x0000000008002a88                BusFault_Handler
+                0x0000000008002a88                USART1_IRQHandler
+                0x0000000008002a88                OTG_FS_IRQHandler
+                0x0000000008002a88                SPI3_IRQHandler
+                0x0000000008002a88                DMA1_Stream4_IRQHandler
+                0x0000000008002a88                I2C1_ER_IRQHandler
+                0x0000000008002a88                DMA2_Stream6_IRQHandler
+                0x0000000008002a88                DMA1_Stream3_IRQHandler
+ *fill*         0x0000000008002a8a        0x2 
+ .text.BSP_LED_Init
+                0x0000000008002a8c       0xf0 ./stm32f4_discovery.o
+                0x0000000008002a8c                BSP_LED_Init
+ .text.BSP_LED_Toggle
+                0x0000000008002b7c       0x34 ./stm32f4_discovery.o
+                0x0000000008002b7c                BSP_LED_Toggle
+ .text.SystemInit
+                0x0000000008002bb0       0x5c ./system_stm32f4xx.o
+                0x0000000008002bb0                SystemInit
  .text.__libc_init_array
-                0x0000000008002c68       0x48 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
-                0x0000000008002c68                __libc_init_array
- .text.memcpy   0x0000000008002cb0       0x1c /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
-                0x0000000008002cb0                memcpy
- .text.memset   0x0000000008002ccc       0x10 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
-                0x0000000008002ccc                memset
+                0x0000000008002c0c       0x48 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
+                0x0000000008002c0c                __libc_init_array
+ .text.memcpy   0x0000000008002c54       0x1c /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
+                0x0000000008002c54                memcpy
+ .text.memset   0x0000000008002c70       0x10 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
+                0x0000000008002c70                memset
  *(.glue_7)
- .glue_7        0x0000000008002cdc        0x0 linker stubs
+ .glue_7        0x0000000008002c80        0x0 linker stubs
  *(.glue_7t)
- .glue_7t       0x0000000008002cdc        0x0 linker stubs
+ .glue_7t       0x0000000008002c80        0x0 linker stubs
  *(.eh_frame)
- .eh_frame      0x0000000008002cdc        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
+ .eh_frame      0x0000000008002c80        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
  *(.init)
- .init          0x0000000008002cdc        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008002cdc                _init
- .init          0x0000000008002ce0        0x8 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
+ .init          0x0000000008002c80        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008002c80                _init
+ .init          0x0000000008002c84        0x8 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
  *(.fini)
- .fini          0x0000000008002ce8        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crti.o
-                0x0000000008002ce8                _fini
- .fini          0x0000000008002cec        0x8 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
-                0x0000000008002cf4                . = ALIGN (0x4)
-                0x0000000008002cf4                _etext = .
+ .fini          0x0000000008002c8c        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crti.o
+                0x0000000008002c8c                _fini
+ .fini          0x0000000008002c90        0x8 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
+                0x0000000008002c98                . = ALIGN (0x4)
+                0x0000000008002c98                _etext = .
 
-.vfp11_veneer   0x0000000008002cf4        0x0
- .vfp11_veneer  0x0000000008002cf4        0x0 linker stubs
+.vfp11_veneer   0x0000000008002c98        0x0
+ .vfp11_veneer  0x0000000008002c98        0x0 linker stubs
 
-.v4_bx          0x0000000008002cf4        0x0
- .v4_bx         0x0000000008002cf4        0x0 linker stubs
+.v4_bx          0x0000000008002c98        0x0
+ .v4_bx         0x0000000008002c98        0x0 linker stubs
 
-.iplt           0x0000000008002cf4        0x0
- .iplt          0x0000000008002cf4        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
+.iplt           0x0000000008002c98        0x0
+ .iplt          0x0000000008002c98        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.rodata         0x0000000008002cf4       0x38
-                0x0000000008002cf4                . = ALIGN (0x4)
+.rodata         0x0000000008002c98       0x38
+                0x0000000008002c98                . = ALIGN (0x4)
  *(.rodata)
- .rodata        0x0000000008002cf4        0x5 ./FreeRTOS/Source/tasks.o
- *fill*         0x0000000008002cf9        0x3 
- .rodata        0x0000000008002cfc        0xd ./FreeRTOS/Source/timers.o
- *fill*         0x0000000008002d09        0x3 
- .rodata        0x0000000008002d0c       0x17 ./tasks_FreeRTOS_qemu.o
+ .rodata        0x0000000008002c98        0x5 ./FreeRTOS/Source/tasks.o
+ *fill*         0x0000000008002c9d        0x3 
+ .rodata        0x0000000008002ca0        0xd ./FreeRTOS/Source/timers.o
+ *fill*         0x0000000008002cad        0x3 
+ .rodata        0x0000000008002cb0       0x17 ./FreeRTOS_ex1.o
  *(.rodata*)
- *fill*         0x0000000008002d23        0x1 
+ *fill*         0x0000000008002cc7        0x1 
  .rodata.GPIO_PIN
-                0x0000000008002d24        0x8 ./stm32f4_discovery.o
-                0x0000000008002d24                GPIO_PIN
-                0x0000000008002d2c                . = ALIGN (0x4)
+                0x0000000008002cc8        0x8 ./stm32f4_discovery.o
+                0x0000000008002cc8                GPIO_PIN
+                0x0000000008002cd0                . = ALIGN (0x4)
 
-.rel.dyn        0x0000000008002d2c        0x0
- .rel.iplt      0x0000000008002d2c        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
+.rel.dyn        0x0000000008002cd0        0x0
+ .rel.iplt      0x0000000008002cd0        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
 
-.ARM            0x0000000008002d2c        0x0
-                0x0000000008002d2c                __exidx_start = .
+.ARM            0x0000000008002cd0        0x0
+                0x0000000008002cd0                __exidx_start = .
  *(.ARM.exidx*)
-                0x0000000008002d2c                __exidx_end = .
+                0x0000000008002cd0                __exidx_end = .
 
-.preinit_array  0x0000000008002d2c        0x0
-                0x0000000008002d2c                PROVIDE (__preinit_array_start = .)
+.preinit_array  0x0000000008002cd0        0x0
+                0x0000000008002cd0                PROVIDE (__preinit_array_start = .)
  *(.preinit_array*)
-                0x0000000008002d2c                PROVIDE (__preinit_array_end = .)
+                0x0000000008002cd0                PROVIDE (__preinit_array_end = .)
 
-.init_array     0x0000000008002d2c        0x4
-                0x0000000008002d2c                PROVIDE (__init_array_start = .)
+.init_array     0x0000000008002cd0        0x4
+                0x0000000008002cd0                PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array*)
- .init_array    0x0000000008002d2c        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
-                0x0000000008002d30                PROVIDE (__init_array_end = .)
+ .init_array    0x0000000008002cd0        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
+                0x0000000008002cd4                PROVIDE (__init_array_end = .)
 
-.fini_array     0x0000000008002d30        0x4
+.fini_array     0x0000000008002cd4        0x4
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array*)
- .fini_array    0x0000000008002d30        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
+ .fini_array    0x0000000008002cd4        0x4 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
                 [!provide]                        PROVIDE (__fini_array_end = .)
-                0x0000000008002d34                _sidata = LOADADDR (.data)
+                0x0000000008002cd8                _sidata = LOADADDR (.data)
 
-.data           0x0000000020000000       0x1c load address 0x0000000008002d34
+.data           0x0000000020000000       0x1c load address 0x0000000008002cd8
                 0x0000000020000000                . = ALIGN (0x4)
                 0x0000000020000000                _sdata = .
  *(.data)
@@ -1942,12 +1940,12 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
                 0x0000000020000018                SystemCoreClock
                 0x000000002000001c                . = ALIGN (0x4)
                 0x000000002000001c                _edata = .
-                0x0000000008002d50                _siccmram = LOADADDR (.ccmram)
+                0x0000000008002cf4                _siccmram = LOADADDR (.ccmram)
 
-.igot.plt       0x000000002000001c        0x0 load address 0x0000000008002d50
+.igot.plt       0x000000002000001c        0x0 load address 0x0000000008002cf4
  .igot.plt      0x000000002000001c        0x0 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtbegin.o
 
-.ccmram         0x0000000010000000        0x0 load address 0x0000000008002d50
+.ccmram         0x0000000010000000        0x0 load address 0x0000000008002cf4
                 0x0000000010000000                . = ALIGN (0x4)
                 0x0000000010000000                _sccmram = .
  *(.ccmram)
@@ -2078,13 +2076,13 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .ARM.attributes
                 0x0000000000000158       0x2d ./FreeRTOS/Source/timers.o
  .ARM.attributes
-                0x0000000000000185       0x21 ./startup_stm32f407xx.o
+                0x0000000000000185       0x2d ./FreeRTOS_ex1.o
  .ARM.attributes
-                0x00000000000001a6       0x2d ./stm32f4_discovery.o
+                0x00000000000001b2       0x21 ./startup_stm32f407xx.o
  .ARM.attributes
-                0x00000000000001d3       0x2d ./system_stm32f4xx.o
+                0x00000000000001d3       0x2d ./stm32f4_discovery.o
  .ARM.attributes
-                0x0000000000000200       0x2d ./tasks_FreeRTOS_qemu.o
+                0x0000000000000200       0x2d ./system_stm32f4xx.o
  .ARM.attributes
                 0x000000000000022d       0x2d /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
  .ARM.attributes
@@ -2093,13 +2091,13 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
                 0x0000000000000287       0x2d /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)
  .ARM.attributes
                 0x00000000000002b4       0x1d /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/crtn.o
-OUTPUT(tasks_FreeRTOS_qemu.elf elf32-littlearm)
+OUTPUT(FreeRTOS_ex1.elf elf32-littlearm)
 LOAD linker stubs
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libc.a
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libm.a
 LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/thumb/v7-m/nofp/libgcc.a
 
-.debug_info     0x0000000000000000     0xa24e
+.debug_info     0x0000000000000000     0xa25d
  .debug_info    0x0000000000000000      0x7d7 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
  .debug_info    0x00000000000007d7      0xbf4 ./FreeRTOS/Source/portable/GCC/MemMang/heap_2.o
  .debug_info    0x00000000000013cb      0x4c9 ./FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
@@ -2107,10 +2105,10 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_info    0x0000000000002475     0x2003 ./FreeRTOS/Source/queue.o
  .debug_info    0x0000000000004478     0x2956 ./FreeRTOS/Source/tasks.o
  .debug_info    0x0000000000006dce     0x15ae ./FreeRTOS/Source/timers.o
- .debug_info    0x000000000000837c       0x22 ./startup_stm32f407xx.o
- .debug_info    0x000000000000839e     0x157d ./stm32f4_discovery.o
- .debug_info    0x000000000000991b      0x54d ./system_stm32f4xx.o
- .debug_info    0x0000000000009e68      0x3e6 ./tasks_FreeRTOS_qemu.o
+ .debug_info    0x000000000000837c      0x3f5 ./FreeRTOS_ex1.o
+ .debug_info    0x0000000000008771       0x22 ./startup_stm32f407xx.o
+ .debug_info    0x0000000000008793     0x157d ./stm32f4_discovery.o
+ .debug_info    0x0000000000009d10      0x54d ./system_stm32f4xx.o
 
 .debug_abbrev   0x0000000000000000     0x18b0
  .debug_abbrev  0x0000000000000000      0x1f1 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -2120,10 +2118,10 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_abbrev  0x00000000000008fd      0x371 ./FreeRTOS/Source/queue.o
  .debug_abbrev  0x0000000000000c6e      0x3d6 ./FreeRTOS/Source/tasks.o
  .debug_abbrev  0x0000000000001044      0x33b ./FreeRTOS/Source/timers.o
- .debug_abbrev  0x000000000000137f       0x12 ./startup_stm32f407xx.o
- .debug_abbrev  0x0000000000001391      0x2b0 ./stm32f4_discovery.o
- .debug_abbrev  0x0000000000001641      0x129 ./system_stm32f4xx.o
- .debug_abbrev  0x000000000000176a      0x146 ./tasks_FreeRTOS_qemu.o
+ .debug_abbrev  0x000000000000137f      0x146 ./FreeRTOS_ex1.o
+ .debug_abbrev  0x00000000000014c5       0x12 ./startup_stm32f407xx.o
+ .debug_abbrev  0x00000000000014d7      0x2b0 ./stm32f4_discovery.o
+ .debug_abbrev  0x0000000000001787      0x129 ./system_stm32f4xx.o
 
 .debug_aranges  0x0000000000000000      0x6a8
  .debug_aranges
@@ -2141,13 +2139,13 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_aranges
                 0x0000000000000478       0xd8 ./FreeRTOS/Source/timers.o
  .debug_aranges
-                0x0000000000000550       0x28 ./startup_stm32f407xx.o
+                0x0000000000000550       0x30 ./FreeRTOS_ex1.o
  .debug_aranges
-                0x0000000000000578       0xd8 ./stm32f4_discovery.o
+                0x0000000000000580       0x28 ./startup_stm32f407xx.o
  .debug_aranges
-                0x0000000000000650       0x28 ./system_stm32f4xx.o
+                0x00000000000005a8       0xd8 ./stm32f4_discovery.o
  .debug_aranges
-                0x0000000000000678       0x30 ./tasks_FreeRTOS_qemu.o
+                0x0000000000000680       0x28 ./system_stm32f4xx.o
 
 .debug_ranges   0x0000000000000000      0x600
  .debug_ranges  0x0000000000000000       0x48 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -2157,10 +2155,10 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_ranges  0x0000000000000110      0x120 ./FreeRTOS/Source/queue.o
  .debug_ranges  0x0000000000000230      0x1e8 ./FreeRTOS/Source/tasks.o
  .debug_ranges  0x0000000000000418       0xc8 ./FreeRTOS/Source/timers.o
- .debug_ranges  0x00000000000004e0       0x20 ./startup_stm32f407xx.o
- .debug_ranges  0x0000000000000500       0xc8 ./stm32f4_discovery.o
- .debug_ranges  0x00000000000005c8       0x18 ./system_stm32f4xx.o
- .debug_ranges  0x00000000000005e0       0x20 ./tasks_FreeRTOS_qemu.o
+ .debug_ranges  0x00000000000004e0       0x20 ./FreeRTOS_ex1.o
+ .debug_ranges  0x0000000000000500       0x20 ./startup_stm32f407xx.o
+ .debug_ranges  0x0000000000000520       0xc8 ./stm32f4_discovery.o
+ .debug_ranges  0x00000000000005e8       0x18 ./system_stm32f4xx.o
 
 .debug_macro    0x0000000000000000     0x2b0e
  .debug_macro   0x0000000000000000      0x1e7 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -2202,47 +2200,48 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_macro   0x0000000000001fa5       0x10 ./FreeRTOS/Source/tasks.o
  .debug_macro   0x0000000000001fb5      0x1dd ./FreeRTOS/Source/timers.o
  .debug_macro   0x0000000000002192       0x97 ./FreeRTOS/Source/timers.o
- .debug_macro   0x0000000000002229      0x1de ./stm32f4_discovery.o
- .debug_macro   0x0000000000002407      0x1e1 ./stm32f4_discovery.o
- .debug_macro   0x00000000000025e8      0x1b7 ./system_stm32f4xx.o
- .debug_macro   0x000000000000279f      0x232 ./tasks_FreeRTOS_qemu.o
- .debug_macro   0x00000000000029d1      0x13d ./tasks_FreeRTOS_qemu.o
+ .debug_macro   0x0000000000002229      0x232 ./FreeRTOS_ex1.o
+ .debug_macro   0x000000000000245b      0x1e1 ./FreeRTOS_ex1.o
+ .debug_macro   0x000000000000263c      0x13d ./FreeRTOS_ex1.o
+ .debug_macro   0x0000000000002779      0x1de ./stm32f4_discovery.o
+ .debug_macro   0x0000000000002957      0x1b7 ./system_stm32f4xx.o
 
-.debug_line     0x0000000000000000     0x719d
- .debug_line    0x0000000000000000      0xaaa ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x0000000000000aaa      0x62d ./FreeRTOS/Source/portable/GCC/MemMang/heap_2.o
- .debug_line    0x00000000000010d7      0x6f9 ./FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
- .debug_line    0x00000000000017d0      0x5c7 ./FreeRTOS/Source/list.o
- .debug_line    0x0000000000001d97     0x1459 ./FreeRTOS/Source/queue.o
- .debug_line    0x00000000000031f0     0x1bb8 ./FreeRTOS/Source/tasks.o
- .debug_line    0x0000000000004da8      0xb22 ./FreeRTOS/Source/timers.o
- .debug_line    0x00000000000058ca       0x77 ./startup_stm32f407xx.o
- .debug_line    0x0000000000005941      0x9c5 ./stm32f4_discovery.o
- .debug_line    0x0000000000006306      0x6d1 ./system_stm32f4xx.o
- .debug_line    0x00000000000069d7      0x7c6 ./tasks_FreeRTOS_qemu.o
+.debug_line     0x0000000000000000     0x705a
+ .debug_line    0x0000000000000000      0xa87 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x0000000000000a87      0x611 ./FreeRTOS/Source/portable/GCC/MemMang/heap_2.o
+ .debug_line    0x0000000000001098      0x6dd ./FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+ .debug_line    0x0000000000001775      0x5ab ./FreeRTOS/Source/list.o
+ .debug_line    0x0000000000001d20     0x143d ./FreeRTOS/Source/queue.o
+ .debug_line    0x000000000000315d     0x1b9c ./FreeRTOS/Source/tasks.o
+ .debug_line    0x0000000000004cf9      0xb06 ./FreeRTOS/Source/timers.o
+ .debug_line    0x00000000000057ff      0x794 ./FreeRTOS_ex1.o
+ .debug_line    0x0000000000005f93       0x77 ./startup_stm32f407xx.o
+ .debug_line    0x000000000000600a      0x9a2 ./stm32f4_discovery.o
+ .debug_line    0x00000000000069ac      0x6ae ./system_stm32f4xx.o
 
-.debug_str      0x0000000000000000    0xc790f
- .debug_str     0x0000000000000000    0xbac2c ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
-                                      0xbaef7 (size before relaxing)
- .debug_str     0x00000000000bac2c     0x7606 ./FreeRTOS/Source/portable/GCC/MemMang/heap_2.o
-                                       0xb686 (size before relaxing)
- .debug_str     0x00000000000c2232      0x759 ./FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
-                                       0x8d8c (size before relaxing)
- .debug_str     0x00000000000c298b      0x12c ./FreeRTOS/Source/list.o
-                                       0xa276 (size before relaxing)
- .debug_str     0x00000000000c2ab7     0x101d ./FreeRTOS/Source/queue.o
-                                       0xc465 (size before relaxing)
- .debug_str     0x00000000000c3ad4     0x1b7b ./FreeRTOS/Source/tasks.o
-                                       0xd106 (size before relaxing)
- .debug_str     0x00000000000c564f      0x545 ./FreeRTOS/Source/timers.o
-                                       0xc895 (size before relaxing)
- .debug_str     0x00000000000c5b94       0x6a ./startup_stm32f407xx.o
- .debug_str     0x00000000000c5bfe     0x1bdc ./stm32f4_discovery.o
-                                      0xbc978 (size before relaxing)
- .debug_str     0x00000000000c77da       0xbb ./system_stm32f4xx.o
-                                      0xbacad (size before relaxing)
- .debug_str     0x00000000000c7895       0x7a ./tasks_FreeRTOS_qemu.o
-                                      0xbff88 (size before relaxing)
+.debug_str      0x0000000000000000    0xc78b7
+ .debug_str     0x0000000000000000    0xbac25 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+                                      0xbaef0 (size before relaxing)
+ .debug_str     0x00000000000bac25     0x7606 ./FreeRTOS/Source/portable/GCC/MemMang/heap_2.o
+                                       0xb67f (size before relaxing)
+ .debug_str     0x00000000000c222b      0x759 ./FreeRTOS/Source/portable/GCC/ARM_CM3/port.o
+                                       0x8d85 (size before relaxing)
+ .debug_str     0x00000000000c2984      0x12c ./FreeRTOS/Source/list.o
+                                       0xa26f (size before relaxing)
+ .debug_str     0x00000000000c2ab0     0x101d ./FreeRTOS/Source/queue.o
+                                       0xc45e (size before relaxing)
+ .debug_str     0x00000000000c3acd     0x1b7b ./FreeRTOS/Source/tasks.o
+                                       0xd0ff (size before relaxing)
+ .debug_str     0x00000000000c5648      0x545 ./FreeRTOS/Source/timers.o
+                                       0xc88e (size before relaxing)
+ .debug_str     0x00000000000c5b8d      0xd6f ./FreeRTOS_ex1.o
+                                      0xbff73 (size before relaxing)
+ .debug_str     0x00000000000c68fc       0x27 ./startup_stm32f407xx.o
+                                         0x57 (size before relaxing)
+ .debug_str     0x00000000000c6923      0xed9 ./stm32f4_discovery.o
+                                      0xbc971 (size before relaxing)
+ .debug_str     0x00000000000c77fc       0xbb ./system_stm32f4xx.o
+                                      0xbaca6 (size before relaxing)
 
 .comment        0x0000000000000000       0x43
  .comment       0x0000000000000000       0x43 ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -2253,9 +2252,9 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .comment       0x0000000000000043       0x44 ./FreeRTOS/Source/queue.o
  .comment       0x0000000000000043       0x44 ./FreeRTOS/Source/tasks.o
  .comment       0x0000000000000043       0x44 ./FreeRTOS/Source/timers.o
+ .comment       0x0000000000000043       0x44 ./FreeRTOS_ex1.o
  .comment       0x0000000000000043       0x44 ./stm32f4_discovery.o
  .comment       0x0000000000000043       0x44 ./system_stm32f4xx.o
- .comment       0x0000000000000043       0x44 ./tasks_FreeRTOS_qemu.o
 
 .debug_frame    0x0000000000000000     0x1a5c
  .debug_frame   0x0000000000000000      0x14c ./Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
@@ -2265,9 +2264,9 @@ LOAD /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.conte
  .debug_frame   0x000000000000047c      0x534 ./FreeRTOS/Source/queue.o
  .debug_frame   0x00000000000009b0      0x894 ./FreeRTOS/Source/tasks.o
  .debug_frame   0x0000000000001244      0x38c ./FreeRTOS/Source/timers.o
- .debug_frame   0x00000000000015d0      0x350 ./stm32f4_discovery.o
- .debug_frame   0x0000000000001920       0x58 ./system_stm32f4xx.o
- .debug_frame   0x0000000000001978       0x70 ./tasks_FreeRTOS_qemu.o
+ .debug_frame   0x00000000000015d0       0x70 ./FreeRTOS_ex1.o
+ .debug_frame   0x0000000000001640      0x350 ./stm32f4_discovery.o
+ .debug_frame   0x0000000000001990       0x58 ./system_stm32f4xx.o
  .debug_frame   0x00000000000019e8       0x2c /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-init.o)
  .debug_frame   0x0000000000001a14       0x28 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memcpy-stub.o)
  .debug_frame   0x0000000000001a3c       0x20 /home/luis/opt/xPacks/@xpack-dev-tools/arm-none-eabi-gcc/9.3.1-1.2.1/.content/bin/../lib/gcc/arm-none-eabi/9.3.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/libg_nano.a(lib_a-memset.o)

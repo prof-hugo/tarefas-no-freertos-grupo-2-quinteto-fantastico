@@ -31,38 +31,38 @@ endif
 
 # Add inputs and outputs from these tool invocations to the build variables 
 SECONDARY_FLASH += \
-tasks_FreeRTOS_qemu.hex \
+FreeRTOS_ex1.hex \
 
 SECONDARY_SIZE += \
-tasks_FreeRTOS_qemu.siz \
+FreeRTOS_ex1.siz \
 
 
 # All Target
-all: tasks_FreeRTOS_qemu.elf secondary-outputs
+all: FreeRTOS_ex1.elf secondary-outputs
 
 # Tool invocations
-tasks_FreeRTOS_qemu.elf: $(OBJS) $(USER_OBJS)
+FreeRTOS_ex1.elf: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GNU ARM Cross C Linker'
-	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "D:\Desktop\tasks_FreeRTOS_qemu-master\ldscripts\STM32F407VGTx_FLASH.ld" -Xlinker --gc-sections -L"D:\Desktop\tasks_FreeRTOS_qemu-master\ldscripts" -Wl,-Map,"tasks_FreeRTOS_qemu.map" --specs=nano.specs -o "tasks_FreeRTOS_qemu.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+	arm-none-eabi-gcc -mcpu=cortex-m3 -mthumb -O0 -fmessage-length=0 -fsigned-char -ffunction-sections -fdata-sections  -g3 -T "/home/luis/eclipse-workspace/FreeRTOS_ex1/ldscripts/STM32F407VGTx_FLASH.ld" -Xlinker --gc-sections -L"/home/luis/eclipse-workspace/FreeRTOS_ex1/ldscripts" -Wl,-Map,"FreeRTOS_ex1.map" --specs=nano.specs -o "FreeRTOS_ex1.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
-tasks_FreeRTOS_qemu.hex: tasks_FreeRTOS_qemu.elf
+FreeRTOS_ex1.hex: FreeRTOS_ex1.elf
 	@echo 'Invoking: GNU ARM Cross Create Flash Image'
-	arm-none-eabi-objcopy -O ihex "tasks_FreeRTOS_qemu.elf"  "tasks_FreeRTOS_qemu.hex"
+	arm-none-eabi-objcopy -O ihex "FreeRTOS_ex1.elf"  "FreeRTOS_ex1.hex"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-tasks_FreeRTOS_qemu.siz: tasks_FreeRTOS_qemu.elf
+FreeRTOS_ex1.siz: FreeRTOS_ex1.elf
 	@echo 'Invoking: GNU ARM Cross Print Size'
-	arm-none-eabi-size --format=berkeley "tasks_FreeRTOS_qemu.elf"
+	arm-none-eabi-size --format=berkeley "FreeRTOS_ex1.elf"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS) tasks_FreeRTOS_qemu.elf
+	-$(RM) $(OBJS)$(SECONDARY_FLASH)$(SECONDARY_SIZE)$(ASM_DEPS)$(S_UPPER_DEPS)$(C_DEPS) FreeRTOS_ex1.elf
 	-@echo ' '
 
 secondary-outputs: $(SECONDARY_FLASH) $(SECONDARY_SIZE)

@@ -20,6 +20,6 @@ SUBDIRS := \
 FreeRTOS/Source \
 FreeRTOS/Source/portable/GCC/ARM_CM3 \
 FreeRTOS/Source/portable/GCC/MemMang \
-Libraries/STM32F4xx_HAL_Driver/Src \
 . \
+Libraries/STM32F4xx_HAL_Driver/Src \
 

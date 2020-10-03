@@ -1,5 +1,4 @@
-Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o: \
- ../Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c \
+FreeRTOS_ex1.o: ../FreeRTOS_ex1.c ../stm32f4_discovery.h \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/stm32f4xx_hal_conf.h \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_rcc.h \
@@ -24,7 +23,19 @@ Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o: \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_flash_ramfunc.h \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c.h \
  /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h \
- /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/FreeRTOS.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOSConfig.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/projdefs.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/portable.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/deprecated_definitions.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/mpu_wrappers.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/task.h \
+ /home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/list.h
+
+../stm32f4_discovery.h:
 
 /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h:
 
@@ -75,3 +86,23 @@ Libraries/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o: \
 /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_i2c_ex.h:
 
 /home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_spi.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/FreeRTOS.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOSConfig.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/Libraries/CMSIS/Device/ST/STM32F4xx/Include/system_stm32f4xx.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/projdefs.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/portable.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/deprecated_definitions.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/portable/GCC/ARM_CM3/portmacro.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/mpu_wrappers.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/task.h:
+
+/home/luis/eclipse-workspace/FreeRTOS_ex1/FreeRTOS/Source/include/list.h:

@@ -1,0 +1,1 @@
+Os ticks usados foram multiplicados todos por 10
